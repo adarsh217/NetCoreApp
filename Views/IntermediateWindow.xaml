@@ -1,0 +1,10 @@
+<Window x:Class="WpfApp3.Views.IntermediateWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="IntermediateWindow" Height="450" Width="800">
+    <StackPanel>
+        <Button Content="Inventory Management" Click="InventoryButton_Click" />
+        <Button Content="Sales Management" Click="SalesButton_Click" />
+        <Button Content="Sales Reports" Click="ReportsButton_Click" />
+    </StackPanel>
+</Window>
